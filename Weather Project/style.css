@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: grey;
+}
+.container {
+    padding: 1.5rem;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 40px rgb(241, 145, 161);
+    text-align: center;
+}
+h1 {
+    margin-bottom: 1.5rem;
+}
+.input {
+    padding: 0.35rem 0.75rem;
+    border: none;
+    color: grey;
+    background: transparent;
+    box-shadow: 5px 5px 15px grey;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+.input:focus {
+    outline: none;
+}
+.btn {
+    padding: 0.3rem 0.7rem;
+    border: none;
+    color: grey;
+    background: transparent;
+    box-shadow: 3px 3px 10px grey;
+    font-size: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 1rem;
+}
+.btn:hover {
+    color: rgb(44, 42, 42);
+    background: transparent;
+    box-shadow: 3px 3px 10px rgb(241, 145, 161);
+}
+.temp {
+    display: flex;
+    justify-content: space-between;
+}
+.city {
+    margin: 2rem 0;
+}
+.result {
+    width: 40%;
+}
+.result-num {
+    color: rgb(66, 65, 65);
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .result {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 365px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 250px) {
+    .temp {
+        flex-direction: column;
+        }
+    .input {
+        width: 100px;
+    }  
+}

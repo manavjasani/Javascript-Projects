@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.square {
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+.square h1 {
+    text-align: center;
+    color: wheat;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: grey;
+    border: none;
+    margin: 20px auto;
+    display: block;
+}
+.btn:hover {
+    background-color: rgb(61, 60, 60);
+}
+
+@media screen and (max-height: 460px) {
+    .container {
+        width: 400px;
+        height: 300px;
+        flex-direction: row;
+    }    
+    .btn {
+        margin-left: 20px;
+    }
+}

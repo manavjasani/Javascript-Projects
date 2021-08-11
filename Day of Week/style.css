@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: rgb(240, 126, 145);
+}
+.container {
+    padding: 1.5rem;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 40px rgb(241, 145, 161);
+    text-align: center;
+}
+.day {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 560px) {
+    .container {
+        padding: 1rem;
+        width: 100%;
+    }
+}

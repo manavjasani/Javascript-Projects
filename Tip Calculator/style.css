@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.container {
+    width: 35%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(210deg, grey, black);
+}
+.head {
+    margin-bottom: 1.5rem;
+}
+.input span {
+    padding: 4px 8.5px;
+    background-color: grey;
+}
+.input-text {
+    padding: 0.25rem 0.5rem;
+}
+.tip {
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+}
+#tip-input {
+    margin: 0 1rem;
+}
+.tip-text {
+    width: 40px;
+    padding: 0.25rem;
+    font-size: 1.25rem;
+}
+.tip-amount {
+    border: 1px solid grey;
+    padding: 0.5rem 1rem;
+}
+.final-amount {
+    border: 1px solid grey;
+    padding: 0.5rem 1rem;
+}
+.result {
+    margin-top: 1.5rem;
+}
+.result::before {
+    content: "Result : ";
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .container {
+        width: 100%;
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-height: 275px) {
+    .head {
+        margin-bottom: 0.5rem;
+    }
+    .tip {
+        margin: 0.5rem 0;
+    }
+}

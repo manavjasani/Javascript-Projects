@@ -46,3 +46,8 @@ This is a `30projects` in `30days` challenge.
   - This is a calculate tips as per the `percentage` of total bills as you required.
   - In which you have to enter the amount of bill in input field after that you have to select the range. this range is in percentage.
   - When you complete this step then below it you can see the tip amount and total bill include tip in table.
+
+### 11. Rock, Paper, Scissor Game
+  - In this game you can choose any one of given three & computer will play against of you.
+  - In this game `Rock` will crack `Scissor` so `Rock` will win & `Rock` will cover by `Paper` so `Paper` win and another probability is `Scissor`     will cut the `Paper` so `Scissor` will win.
+  - There is player and computer guess also shown in window So this is interesting Game.

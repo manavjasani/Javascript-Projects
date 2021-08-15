@@ -51,3 +51,7 @@ This is a `30projects` in `30days` challenge.
   - In this game you can choose any one of given three & computer will play against of you.
   - In this game `Rock` will crack `Scissor` so `Rock` will win & `Rock` will cover by `Paper` so `Paper` win and another probability is `Scissor`     will cut the `Paper` so `Scissor` will win.
   - There is player and computer guess also shown in window So this is interesting Game.
+
+### 12. Image slider
+  - By this project when we hover any of the image below main image then this image transfer into main image.
+  - Another one is hovered image will be shown some less opacity.

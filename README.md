@@ -55,3 +55,8 @@ This is a `30projects` in `30days` challenge.
 ### 12. Image slider
   - By this project when we hover any of the image below main image then this image transfer into main image.
   - Another one is hovered image will be shown some less opacity.
+
+### 13. Coin Toss Game
+  - In this game, computer is opponent with you.
+  - You have to select any of Toss face `Heads` or `Tails` and computer will select any of one.
+  - And if any one having true guess then their point will be increase by `one` and whose point is 5 earlier is winner.

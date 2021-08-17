@@ -60,3 +60,8 @@ This is a `30projects` in `30days` challenge.
   - In this game, computer is opponent with you.
   - You have to select any of Toss face `Heads` or `Tails` and computer will select any of one.
   - And if any one having true guess then their point will be increase by `one` and whose point is 5 earlier is winner.
+
+### 14. Calculator
+  - This is a regular calculator as you know.
+  - In this calculator you can `Addition`, `Subtraction`, `Multiplication`, `Division` between any numbers.
+  - And you can clear all the screen by `AC` button and clear only last typed character by `C` button.

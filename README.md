@@ -65,3 +65,9 @@ This is a `30projects` in `30days` challenge.
   - This is a regular calculator as you know.
   - In this calculator you can `Addition`, `Subtraction`, `Multiplication`, `Division` between any numbers.
   - And you can clear all the screen by `AC` button and clear only last typed character by `C` button.
+
+### 15. Guess Number Game
+  - In guess number game you have to guess any number between 1 to 100 and you having 10try to find it.
+  - If you select number that is less than answer then game is notify you that it's `Too Less` and if it's higher number then message will be `Too High`.
+  - And if you select right answer then message will be `You are Winner` and start button will apear on screen.
+  - After selecting start button game will be start at first.

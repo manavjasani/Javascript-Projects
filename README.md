@@ -71,3 +71,12 @@ This is a `30projects` in `30days` challenge.
   - If you select number that is less than answer then game is notify you that it's `Too Less` and if it's higher number then message will be `Too High`.
   - And if you select right answer then message will be `You are Winner` and start button will apear on screen.
   - After selecting start button game will be start at first.
+
+### 16. Contact-Form
+  - This is Contact-form as you see in all websites.
+  - It is complete validation formand at the time of submit the form if you write anything wrong in the input field then it will give the alert of that mistakes.
+
+### 17. To-do list
+  - This project is To-do list. You have to add any activity that you want by submit button.
+  - All activities are shown below the button with each close button/
+  - When you click close button that activity will be close.

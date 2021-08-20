@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 30px grey;
+    padding: 2rem;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: grey;
+}
+.input {
+    border: none;
+    font-size: 1.25rem;
+    padding: 0.3rem 0.75rem;
+    margin: 1.5rem 0;
+    color: rgb(68, 67, 67);
+    box-shadow: 7px 7px 20px rgb(53, 52, 52);
+    width: 80%;
+}
+.input:focus {
+    outline: none;
+    animation: animate 0.2s;
+}
+@keyframes animate {
+    0%, 100% {
+        transform: scale(1);
+    } 
+    50% {
+        transform: scale(1.1);
+    }
+}
+.submit-btn {
+    padding: 0.3rem 0.75rem;
+    font-size: 1.25rem;
+    border: none;
+    background: transparent;
+    box-shadow: 3px 3px 10px rgba(53, 52, 52, 0.5);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: rgb(53, 52, 52);
+}
+.submit-btn:hover {
+    background: rgba(53, 52, 52, 0.5);
+    color: white;
+    box-shadow: 3px 3px 10px rgb(53, 52, 52);
+    transition: all 0.3s;
+}
+
+.result {
+    margin-top: 1.5rem;
+    width: 80%;
+}
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(95, 94, 94);
+    padding: 0.35rem 0.75rem;
+    margin-bottom: 0.1rem;
+}
+h2 {
+    color: rgb(94, 92, 92);
+}
+.close-btn {
+    padding: 0.25rem 0.5rem;
+    color: red;
+    background: transparent;
+    border: none;
+    box-shadow: 1px 1px 5px red;
+}
+.close-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 710px) {
+    .container {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 250px) {
+    .container {
+        padding: 0;
+    }
+}
+@media screen and (max-height: 300px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .input {
+        font-size: 1rem;
+        padding: 0.2rem 0.5rem;
+        margin: 0.75rem 0;
+    }
+}

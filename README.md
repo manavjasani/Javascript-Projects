@@ -80,3 +80,10 @@ This is a `30projects` in `30days` challenge.
   - This project is To-do list. You have to add any activity that you want by submit button.
   - All activities are shown below the button with each close button/
   - When you click close button that activity will be close.
+
+### 18. Analog Clock
+  - This is a simple clock which gives time in hours, minutes, seconds.
+
+### 19. Weather App
+  - This app gives you the any city's all temperature and weather conditions.
+  - You have to write any city's name into input and click `Search` button and after it when you click `Reset` button all fields will clear.

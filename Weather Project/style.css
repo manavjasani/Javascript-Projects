@@ -34,7 +34,7 @@ h1 {
 .input:focus {
     outline: none;
 }
-.btn {
+.btn, .btn-reset {
     padding: 0.3rem 0.7rem;
     border: none;
     color: grey;
@@ -44,7 +44,8 @@ h1 {
     margin: 1.5rem 0;
     border-radius: 1rem;
 }
-.btn:hover {
+
+.btn:hover, .btn-reset:hover {
     color: rgb(44, 42, 42);
     background: transparent;
     box-shadow: 3px 3px 10px rgb(241, 145, 161);

@@ -87,3 +87,15 @@ This is a `30projects` in `30days` challenge.
 ### 19. Weather App
   - This app gives you the any city's all temperature and weather conditions.
   - You have to write any city's name into input and click `Search` button and after it when you click `Reset` button all fields will clear.
+
+### 20. Slider
+  - This is 2 slider on 1 page in both slider images will be change after 2 seconds.
+  - But if you want to change images then you can click left or right button that slider don't affect other slider.
+
+### 21. Trello app
+  - It's Trello App in which you can add any important notes that you want.
+  - Another feature is you can add notes into your parent notes.
+
+### 22. Product Filter
+  - By Product filter you can filter product by product name and product button.
+  - You can choose any method for filter product for saving time.

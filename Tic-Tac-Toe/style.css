@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.divc:nth-child(3n) {
+    border-right: none;
+}
+.divc:nth-child(3n + 1) {
+    border-left: none;
+}
+.divc:nth-child(1), .divc:nth-child(2), .divc:nth-child(3) {
+    border-top: none;
+}
+.divc:nth-child(7), .divc:nth-child(8), .divc:nth-child(9) {
+    border-bottom: none;
+}
+
+.divc {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.divp {
+    display: flex;
+    font-size: 90px;
+    align-items: center;
+    justify-content: center;
+}

@@ -52,4 +52,30 @@ function winner() {
 function getData(a, b, c) {
     return (a.innerHTML !== '' && b.innerHTML !== '' && c.innerHTML !== '' && a.innerHTML == b.innerHTML 
             && b.innerHTML == c.innerHTML);
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+const arr = [1, 5, 3, 2, 8];
+const sum = 10;
+let length = 0;
+
+function longestArr(arr, sum) {
+    for(let i = 0; i < arr.length; i++) {
+        let sumArr = 0;
+        for(let j = i; j < arr.length; j++) {
+            sumArr += arr[j];
+
+            if(sumArr == sum) {
+                if(length < j - i + 1) {
+                    length = j - i + 1;
+                }
+            }
+        }
+    }
+}
+longestArr(arr, sum);
+>>>>>>> 5f49b216ab470c2791c0cb434433cdb4441182f1

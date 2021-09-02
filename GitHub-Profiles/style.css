@@ -12,6 +12,15 @@ body {
     min-height: 100vh;
 }
 
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #search {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
@@ -23,6 +32,76 @@ body {
 #search:focus {
     outline: none;
     animation: scaleAni 0.2s ease-in;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.sub-btn {
+    padding: 0.6rem 1rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(44, 1, 85);
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+.sub-btn:hover {
+    color: violet;
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+.card img {
+    flex-basis: 15%;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.pro-data {
+    flex-basis: 75%;
+}
+
+.pro-data > * {
+    margin: 0.5rem 0;
+}
+
+.pro-ana {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro-ana span {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+.clear {
+    display: block;
+    margin: auto;
+    background: transparent;
+    border-radius: 0.5rem;
+    border: none;
+    border: rgb(211, 187, 233);
+    color: rgb(37, 1, 70);
+    padding: 0.5rem 1rem;
+    
 }
 
 @keyframes scaleAni {

@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(215deg, rgb(105, 2, 105), rgb(66, 1, 66));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#search {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: blueviolet;
+}
+
+#search:focus {
+    outline: none;
+    animation: scaleAni 0.2s ease-in;
+}
+
+@keyframes scaleAni {
+    0%,100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
